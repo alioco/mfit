@@ -11,7 +11,9 @@ function mfit_summary(results,bootfun,nboot)
     %   nboot (optional) - number of bootstrap samples (default: 1000)
     %
     % Sam Gershman, March 2017
-    
+   %here is a new comment by gail. i don't want to mess up this code.
+
+
     if nargin < 3 || isempty(bootfun); bootfun = @mean; end
     if nargin < 4 || isempty(nboot); nboot = 1000; end
     
